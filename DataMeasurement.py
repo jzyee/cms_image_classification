@@ -14,7 +14,7 @@ import random as random
 
 #%% Read and filter the data
 
-data = read.readJsonData("Json_DY.json")
+data = read.readJsonData("Json_data.json")
 
 process.leptonFilter(data, 'muon', minPt = 20, maxPt = False, minEta = False, maxEta = False, tightIDFilter = True, tightIsoFilter = True)
 process.leptonFilter(data, 'electron', minPt = 20, maxPt = False, minEta = False, maxEta = False, tightIDFilter = True, tightIsoFilter = True)
