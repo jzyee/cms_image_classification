@@ -58,4 +58,4 @@ This command creates json files we need from Monte Carlo simulations:
     python runthisone.py 
 ```
  
-After running this command, we can gain 4 different json files located in 'json-cms/AnalysisFW/python/outputjsons', corresponding to 4 different index files we've downloaded above.
+After running this command, we can gain 4 different json files located in `json-cms/AnalysisFW/python/outputjsons`, corresponding to 4 different index files we've downloaded above.
