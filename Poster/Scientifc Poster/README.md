@@ -29,12 +29,12 @@ We focus on the production of a pair of quarks top anti-top (ttbar) and discrimi
 - VGG16,VGG19: Same architecture with different depth.
 - oResNet50: Trained from a million images from the ImageNet database.
 
-##Background
-###Convolutional Neural Networks (CNN)
+## Background
+### Convolutional Neural Networks (CNN)
 CNN is widely used in the computer vision community to fix complex issues, it consists of convolutional layers and forward-passing fully connected layers.
-###The Large Hadron Collider (LHC)
+### The Large Hadron Collider (LHC)
 Large Hadron Collider (LHC) is the world’s largest particle collider and is used to accelerate particles beams and guide particle’s collision. These particles can be detected by the detector - CMS.
-###Compact Muon Solenoid (CMS) 
+### Compact Muon Solenoid (CMS) 
 Compact Muon Solenoid (CMS) is a particle detector, like a cylindrical onion, has different layers to measure different properties of particles.
 
 ## Methodology
