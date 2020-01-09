@@ -25,8 +25,8 @@ We focus on the production of a pair of quarks top anti-top (ttbar) and discrimi
     - Each top quark decays into a W boson and a bottom quark.
     - One of W bosons decays leptonically into a charged lepton, electron or muon, with an associated neutrino.
     - Background:
-- W + jets events
-- Drell-Yan processes
+      - W + jets events
+      - Drell-Yan processes
  
 ## Methodology
 ### Process
