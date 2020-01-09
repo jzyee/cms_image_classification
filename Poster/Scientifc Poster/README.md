@@ -2,32 +2,41 @@
 ## Poster Skeleton
 - Abstract
 - Introduction
-  - LHC & CMS
-  - Deep learning CNNs
-  - Top quark pair events
+  - Collision Model
+  - CNN Model
+- Background
+  - Convolutional Neural Networks (CNN)
+  - The Large Hadron Collider (LHC)
+  - Compact Muon Solenoid (CMS) 
 - Methodology
 - Result
 - Reference
 
 ## Abstract
-Use deep learning model to analyze the data from the CMS Open Data portal. Specifically, we use the image classification which is an application of CNNs in the context of analysis in experimental High Energy Physics (HEP).
+The program of LHC and CMS records the collision of high energy physics and shares the data in the worldwide LHC Computing Grid, which gives a platform for physicists in 42 countries. This research applied convolutional neural network to particle collisions classification. We compare the performance of four well-known convolutional neural network and test transfer learning in particle classification.
 
 ## Introduction
-### LHC & CMS
-LHC (The Large Hadron Collider) the world’s largest particle collider, is used to accelerate particles beams and guide the particle’s collision. CMS (Compact Muon Solenoid) is a particle detector, like a cylindrical onion, has different layers to measure different properties of particles.
+### Collision Model (Top quark pair events:)
+We focus on the production of a pair of quarks top anti-top (ttbar) and discriminate them from other processes (background). 
+- Each top quark decays into a W boson and a bottom quark.
+- One of W bosons decays leptonically into a charged lepton, electron or muon, with an associated neutrino.
+- Background:
+       - W + jets events
+       - Drell-Yan processes
 
-### Deep Learning (CNN)
-Deep learning with convolutional neural networks (CNNs) is one of the most widely effective methods in computer vision and speech recognition for past few years, which gives us the probabilities to apply it in particle physics analysis.
+### CNN models:
+- InceptionV3: achieves state-of-the-art accuracy for recognizing general objects with 1000 classes.
+- VGG16,VGG19: Same architecture with different depth.
+- oResNet50: Trained from a million images from the ImageNet database.
 
-### Top quark pair events
-We focus on the production of a pair of quarks top anti-top (ttbar) and discriminate them from other processes (background).
-- Top quark pair events: 
-    - Each top quark decays into a W boson and a bottom quark.
-    - One of W bosons decays leptonically into a charged lepton, electron or muon, with an associated neutrino.
-    - Background:
-      - W + jets events
-      - Drell-Yan processes
- 
+##Background
+###Convolutional Neural Networks (CNN)
+CNN is widely used in the computer vision community to fix complex issues, it consists of convolutional layers and forward-passing fully connected layers.
+###The Large Hadron Collider (LHC)
+Large Hadron Collider (LHC) is the world’s largest particle collider and is used to accelerate particles beams and guide particle’s collision. These particles can be detected by the detector - CMS.
+###Compact Muon Solenoid (CMS) 
+Compact Muon Solenoid (CMS) is a particle detector, like a cylindrical onion, has different layers to measure different properties of particles.
+
 ## Methodology
 ### Process
 - Overview
