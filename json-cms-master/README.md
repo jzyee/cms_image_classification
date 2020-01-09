@@ -1,4 +1,4 @@
-# CMS Jet Tuple and JSON file production 2011 
+# Code creating JSON files from AODSIM root file
 
 This project is a CMSSW module producing root and json files from 2011A Jet data.
 
