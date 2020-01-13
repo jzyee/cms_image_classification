@@ -5,7 +5,7 @@
 ## table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Contained Repositories](#contained-repositories)
+* [Original Repositories](#contained-repositories)
 * [Requirements](#requirements)
 * [How to download project](#how-to-download-project)
 * [How to get json files](#how-to-get-json-files)
@@ -26,7 +26,7 @@ JSON files -> Image Dataset -> Augmented Dataset (optional) -> Transfer Learning
 * Google colab
 * Jupyter notebooks 
 
-## Contained Repositories
+## Orignal Repositories
 
 * For Image Creation : https://github.com/CeliaFernandez/Image-Creation
 * For json file Creation : https://github.com/laramaktub/json-collisions
@@ -36,7 +36,6 @@ JSON files -> Image Dataset -> Augmented Dataset (optional) -> Transfer Learning
 
 All required module can be found in the requirements.txt file
 
-## How to download project
 
 ## How to get json files
 [json-collisons README.md](https://github.com/jzyee/cms_image_classification/blob/master/json-cms-master/README.md)
