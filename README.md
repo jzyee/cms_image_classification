@@ -75,7 +75,8 @@ An example of how to download an .ipynb file:
 
 
 2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “FileUpload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
-3.	To use GPU accelerator, you can change the setting via “EdisNotebook settingsHardware acceleratorGPUSAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
-4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive, and be put in the folder 'My Drive/CMS/filtered_images'. And the fifth cell will help you get access to google drive and load images.
-5.	After notebook setup, you can run the cells in sequence, trained models will be saved in ‘My Drive/CMS’ with saving fitting history in ‘My Drive/CMS /trainHistoryDict/’.
+3.	To use GPU accelerator, you can change the setting via “Runtime->Change runtime type->Hardware accelerator->GPU->SAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
+4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive.In the fifth cell, it  will grant you access to your google drive by mounting the drive. You will need to change the image paths accordingly to where you have stored them on your drive
+5.	If you run all the cells in the notebook, the trained models will be saved along with fitting history. This is so that you can load the model at a later time to carry the prediction again without the training.
+6. Congratulations you have carried out transfer learning model tuning!
 
