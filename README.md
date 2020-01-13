@@ -11,6 +11,7 @@
 * [How to get json files](#how-to-get-json-files)
 * [How to Create Images](#how-to-create-images)
 * [How to tune a Transfer Learning Model](#how-to-tune-a-transfer-learning-model)
+* [References and Useful Links](#references-and-useful-links)
 
 ## General Info
 This project is based of this paper: https://arxiv.org/pdf/1708.07034.pdf
@@ -76,6 +77,23 @@ An example of how to download an .ipynb file:
 2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “File->Upload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
 3.	To use GPU accelerator, you can change the setting via “Runtime->Change runtime type->Hardware accelerator->GPU->SAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
 4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive.In the fifth cell, it  will grant you access to your google drive by mounting the drive. You will need to change the image paths accordingly to where you have stored them on your drive
+<p float="left">
+    <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/decision_map.png" alt="alt text" width=250 height=250>
+    <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/similaririty_matrix.png" alt="alt text" width=250 height=250>
+</p>
 5.	If you run all the cells in the notebook, the trained models will be saved along with fitting history. This is so that you can load the model at a later time to carry the prediction again without the training.
 6. Congratulations you have carried out transfer learning model tuning!
+
+
+
+
+
+
+## References and Useful Links
+
+[1] the European Organization for Nuclear Research (2011). CMS detector design. Available at: http://cms.web.cern.ch/news/cms-detector-design. (Accessed: November 2011)
+[2] the European Organization for Nuclear Research (2011). How CMS detects particles. Available at: http://cms.web.cern.ch/news/how-cms-detects-particles. (Accessed: November 2011)
+[3] CREN Openlab (2017). White Paper: Future Challenges in Scientific Research. Available at：http://cds.cern.ch/record/2301895/files/Whitepaper_brochure_ONLINE.pdf. (Accessed: September 2017)
+[4] towards data science (2018) Transfer learning from pre-trained models. Available at: https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
+
 
