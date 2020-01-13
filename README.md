@@ -81,27 +81,40 @@ An example of how to download an .ipynb file:
 3.	To use GPU accelerator, you can change the setting via “Runtime->Change runtime type->Hardware accelerator->GPU->SAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
 4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive.In the fifth cell, it  will grant you access to your google drive by mounting the drive. You will need to change the image paths accordingly to where you have stored them on your drive
 5. Each notebook is essestially is made up of 2 main parts.
-* notebook setup
-* model
+    * notebook setup
+    * model
 
-<b> For notebook setup: </b>
-</br>
-Run all the cells under this header, the cells under this header will help you install the packages necessary and create your dataset. You will need to alter your working directory and your image path to where you have stored your images in your google drive account, you will find these particular cells under the heading <b>data prep</b>
+    <b> For notebook setup: </b>
+    </br>
+    Run all the cells under this header, the cells under this header will help you install the packages necessary and create your dataset. You will need to alter your working directory and your image path to where you have stored your images in your google drive account, you will find these particular cells under the heading <b>data prep</b>
 
-An example of setting the current working directory in colab to 'drive/My Drive/lhc_durham':
+    An example of setting the current working directory in colab to 'drive/My Drive/lhc_durham':
 
-    %cd drive/'My Drive/lhc_durham'
+        %cd drive/'My Drive/lhc_durham'
 
-An example of setting the image path in relation to the working directory in colab (drive/My Drive/lhc_durham/filetered_images):
+    An example of setting the image path in relation to the working directory in colab (drive/My Drive/lhc_durham/filetered_images):
+
+        img_folder = '/filtered_images'
+
+    <b> Model section : </b>
+    </br>
+    Each model section is broken up into 4 parts:
+
+    1. entirely frozen
+    2. few layers unfrozen
+    3. many layers unfrozen
+    4. entirely unfrozen
+
+    <p float="left">
+        <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/decision_map.png" alt="alt text" width=250 height=250>
+        <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/similaririty_matrix.png" alt="alt text" width=250 height=250>
+    </p>
+    Figure 1.0 Transfer learning tuning graph 
     
-    img_folder = '/filtered_images'
-    
-<p float="left">
-    <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/decision_map.png" alt="alt text" width=250 height=250>
-    <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/similaririty_matrix.png" alt="alt text" width=250 height=250>
-</p>
-5.	If you run all the cells in the notebook, the trained models will be saved along with fitting history. This is so that you can load the model at a later time to carry the prediction again without the training.
-6. Congratulations you have carried out transfer learning model tuning!
+    You can choose to run one section to achieve a model tuned via a particular frozen-unfrozen proportion or run all the cells in the notebook to see the performance of the model with different frozen-unfrozen proportions. This technique of tuning the model is inspired by the above graph
+
+6.	If you run all the cells in the notebook, the trained models will be saved along with fitting history. This is so that you can load the model at a later time to carry the prediction again without the training.
+7. Congratulations you have carried out transfer learning model tuning!
 
 
 
