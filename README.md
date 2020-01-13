@@ -5,7 +5,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Original Repositories](#contained-repositories)
+* [Orignal repos](#Orignal-repos)
 * [Requirements](#requirements)
 * [How to download project](#how-to-download-project)
 * [How to get json files](#how-to-get-json-files)
@@ -27,7 +27,7 @@ JSON files -> Image Dataset -> Augmented Dataset (optional) -> Transfer Learning
 * Google colab
 * Jupyter notebooks 
 
-## Orignal Repositories
+## Original Repos
 
 * For Image Creation : https://github.com/CeliaFernandez/Image-Creation
 * For json file Creation : https://github.com/laramaktub/json-collisions
@@ -37,6 +37,9 @@ JSON files -> Image Dataset -> Augmented Dataset (optional) -> Transfer Learning
 
 All required module can be found in the requirements.txt file
 
+## How to Download Project
+
+    git clone https://github.com/jzyee/cms_image_classification
 
 ## How to get json files
 [json-collisons README.md](https://github.com/jzyee/cms_image_classification/blob/master/json-cms-master/README.md)
@@ -77,6 +80,22 @@ An example of how to download an .ipynb file:
 2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “File->Upload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
 3.	To use GPU accelerator, you can change the setting via “Runtime->Change runtime type->Hardware accelerator->GPU->SAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
 4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive.In the fifth cell, it  will grant you access to your google drive by mounting the drive. You will need to change the image paths accordingly to where you have stored them on your drive
+5. Each notebook is essestially is made up of 2 main parts.
+* notebook setup
+* model
+
+<b> For notebook setup: </b>
+</br>
+Run all the cells under this header, the cells under this header will help you install the packages necessary and create your dataset. You will need to alter your working directory and your image path to where you have stored your images in your google drive account, you will find these particular cells under the heading <b>data prep</b>
+
+An example of setting the current working directory in colab to 'drive/My Drive/lhc_durham':
+
+    %cd drive/'My Drive/lhc_durham'
+
+An example of setting the image path in relation to the working directory in colab (drive/My Drive/lhc_durham/filetered_images):
+    
+    img_folder = '/filtered_images'
+    
 <p float="left">
     <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/decision_map.png" alt="alt text" width=250 height=250>
     <img src="https://github.com/jzyee/cms_image_classification/blob/master/misc/transfer_learning_explains/similaririty_matrix.png" alt="alt text" width=250 height=250>
