@@ -70,9 +70,9 @@ In this part, we can use Google Colaboratory to run the notebook as it provides 
 2.	Download a model that you would like to use or all the .ipynb files  in this folder, and their filenames represent the different models and activation function (e.g. “vgg19_quark_classification_RMSprop.ipynb” means using VGG19 model with RMSprop as its activation function)
 </br>
 An example of how to download an .ipynb file:
-```
+
     wget https://github.com/jzyee/cms_image_classification/blob/master/Training_Model/incepV3_quark_classification.ipynb
-```
+
 
 2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “FileUpload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
 3.	To use GPU accelerator, you can change the setting via “EdisNotebook settingsHardware acceleratorGPUSAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
