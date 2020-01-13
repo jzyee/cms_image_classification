@@ -8,9 +8,9 @@
 * [Contained Repositories](#contained-repositories)
 * [Requirements](#requirements)
 * [How to download project](#how-to-download-project)
-* [How to get json files]
-* [How to Create Images]
-* [How to Create my own Transfer Learning Model]
+* [How to get json files](#how-to-get-json-files)
+* [How to Create Images](#how-to-create-images)
+* [How to tune a Transfer Learning Model](#how-to-tune-a-transfer-learning-model)
 
 ## General Info
 This project is based of this paper: https://arxiv.org/pdf/1708.07034.pdf
@@ -74,7 +74,7 @@ An example of how to download an .ipynb file:
     wget https://github.com/jzyee/cms_image_classification/blob/master/Training_Model/incepV3_quark_classification.ipynb
 
 
-2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “FileUpload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
+2.	Open the link: https://colab.research.google.com, create a new python3 notebook, and upload the .ipynb files via “File->Upload notebook” in the menu at the top left of the page. Then you can see the codes are successfully loaded in google colaboratory.
 3.	To use GPU accelerator, you can change the setting via “Runtime->Change runtime type->Hardware accelerator->GPU->SAVE”. If loaded successfully, in the third cell it would print out ‘Found GPU at: /device:GPU:0’.
 4.	To rerun the codes, images are needed. According to our codes, images should be uploaded to your google drive.In the fifth cell, it  will grant you access to your google drive by mounting the drive. You will need to change the image paths accordingly to where you have stored them on your drive
 5.	If you run all the cells in the notebook, the trained models will be saved along with fitting history. This is so that you can load the model at a later time to carry the prediction again without the training.
