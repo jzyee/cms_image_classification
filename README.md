@@ -2,7 +2,7 @@
 
 
 
-## table of contents
+## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Original Repositories](#contained-repositories)
