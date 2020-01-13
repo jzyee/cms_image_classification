@@ -91,9 +91,9 @@ An example of how to download an .ipynb file:
 
 ## References and Useful Links
 
-[1] the European Organization for Nuclear Research (2011). CMS detector design. Available at: http://cms.web.cern.ch/news/cms-detector-design. (Accessed: November 2011)
-[2] the European Organization for Nuclear Research (2011). How CMS detects particles. Available at: http://cms.web.cern.ch/news/how-cms-detects-particles. (Accessed: November 2011)
-[3] CREN Openlab (2017). White Paper: Future Challenges in Scientific Research. Available at：http://cds.cern.ch/record/2301895/files/Whitepaper_brochure_ONLINE.pdf. (Accessed: September 2017)
-[4] towards data science (2018) Transfer learning from pre-trained models. Available at: https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
+1. the European Organization for Nuclear Research (2011). CMS detector design. Available at: http://cms.web.cern.ch/news/cms-detector-design. (Accessed: November 2011)
+2. the European Organization for Nuclear Research (2011). How CMS detects particles. Available at: http://cms.web.cern.ch/news/how-cms-detects-particles. (Accessed: November 2011)
+3. CREN Openlab (2017). White Paper: Future Challenges in Scientific Research. Available at：http://cds.cern.ch/record/2301895/files/Whitepaper_brochure_ONLINE.pdf. (Accessed: September 2017)
+4. towards data science (2018) Transfer learning from pre-trained models. Available at: https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
 
 
